@@ -1,0 +1,37 @@
+@font-face { font-family: Pokemons_Hollow; src: url('../fonts/Pokemon\ Hollow.ttf'); } 
+@font-face { font-family: Pokemons_Solid; src: url('../fonts/Pokemon\ Solid.ttf'); } 
+
+body {
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    background-size: 1920px 1080px;
+    max-width: 100%;
+    height: auto;
+}
+
+.container_title {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    font-size: 100px;
+    color: rgb(248, 204, 71);
+    justify-content: center;
+    -webkit-text-stroke: 4px rgb(64, 106, 172);
+    font-family: Pokemons_Solid;
+    margin: 0%;
+    padding: 0%;
+    text-shadow: 8px 5px  rgb(33, 45, 91);
+}
+
+
+@media (max-width: 768px) {
+    body {
+        background-size: cover; /* Adapter l'image de fond pour petits écrans */ /* Ajouter un peu de padding pour respirer sur petits écrans */
+    }
+    
+    .container_title {
+        font-size: 80px; /* Réduire la taille du texte sur téléphone */
+    }
+}
