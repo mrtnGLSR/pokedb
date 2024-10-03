@@ -2,12 +2,28 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
     <link rel="stylesheet" href="./styles.css" />
+
     <title>PokeDB</title>
 </head>
 <body>
-    
     <h1 class="container_title">PokéDB</h1>
+    <div class="pokedex_container">
+        <div class="search_bar_container">
+        <form class="search_bar">
+            <input type="text" placeholder="Search a Pokemon..." name="q">
+            <button type="submit"><img src="../images/search.png"></button>
+        </form>
+        </div>
+        <div class="container_information">
+            <div class="item" id="image-pokemon-size">
+                <img src="../pokemons_images/1.webp">
+            </div>
+            <div class="item" id="id_text">
+                <p>Le développement web a considérablement évolué au fil des années. De simples pages statiques créées avec HTML, nous sommes passés à des applications web complexes qui intègrent diverses technologies comme CSS, JavaScript, et même des langages de programmation serveur tels que PHP, Python, et Ruby. Cela permet aujourd'hui de créer des expériences utilisateur riches, dynamiques et interactives.</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
