@@ -1,12 +1,16 @@
 @font-face { font-family: Pokemons_Hollow; src: url('../fonts/Pokemon\ Hollow.ttf'); } 
 @font-face { font-family: Pokemons_Solid; src: url('../fonts/Pokemon\ Solid.ttf'); } 
+@font-face { font-family: PokemonGb-RA; src: url('../fonts/PokemonGb-RA.ttf'); } 
+@font-face { font-family: PokemonGbJapanHrregular; src: url('../fonts/PokemonGbJapanHrregular-Bq93.ttf'); } 
+@font-face { font-family: PokemonGbJapanKt; src: url('../fonts/PokemonGbJapanKt-8Rw2.ttf'); } 
+@font-face { font-family: PokemonUnownGb-YAWa; src: url('../fonts/PokemonUnownGb-YAWa.ttf'); } 
 
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    ;
 }
 
 body {
@@ -18,6 +22,7 @@ body {
     background-size: 1920px 1080px;
     max-width: 100%;
     height: auto;
+
 }
 
 .container_title {
@@ -52,8 +57,11 @@ body {
 }
 
 .container_information{
+    font-family: PokemonGb-RA;
+    font-size: 15px;
     display: flex;
     flex-wrap: nowrap;
+    color: whitesmoke;
 }
 
 
