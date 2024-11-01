@@ -1,7 +1,50 @@
 <html lang="fr">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="/css/desktop.css" />
+
+    <title>{{title}}</title>
 
 </head>
+
 <body>
-    <p>hello world</p>
+    <h1 class="container_title">PokéDB</h1>
+    <div class="pokedex_container">
+        <div class="search_bar_container">
+        <form class="search_bar">
+            <input type="text" placeholder="Search a Pokemon..." name="q">
+            <button type="submit"><img src="/img/search.png"></button>
+        </form>
+        </div>
+        <div class="container_information">
+            <div class="item" id="image-pokemon-size">
+                <img src="{{image}}">
+            </div>
+            <div class="item" id="id_text">
+                <p>
+                    Name: <b>{{name}}</b><br>
+                    <br>
+                    Type: <b>{{type}}</b><br>
+                    <br>
+                    HP: {{hp}}<br>
+                    <br>
+                    Attack:{{attack}}<br>
+                    <br>
+                    Defense: {{defense}}<br>
+                    <br>
+                    Attack Special: {{aspecial}}<br>
+                    <br>
+                    Defense Special: {{dspecial}}<br>
+                    <br>
+                    Speed: {{speed}}<br>
+                    <br>
+
+
+
+                </p>
+            </div>
+        </div>
+    </div>
 </body>
+</html>

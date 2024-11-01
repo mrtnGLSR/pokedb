@@ -10,5 +10,12 @@
     "pokedb"
   ],
   "author": "Martin et Thibault",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.3",
+    "pm2": "^5.4.2"
+  }
 }
